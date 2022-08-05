@@ -1,0 +1,151 @@
+@import "nullstyle.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.content {
+    display: grid;
+    grid-template-columns: minmax(250px, auto) 1fr;
+}
+
+/*header*/
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 50px;
+    max-height: 990px;
+}
+.header__logo {
+    margin: 0 0 55px 0;
+    align-items: start;
+}
+
+/*nav*/
+.header__nav {
+    min-height: 100%;
+    overflow: hidden;
+}
+.nav__title {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+    color: black;
+    margin: 0 0 55px 0;
+}
+.nav__items {}
+.nav__item {
+    margin: 0 0 27px 0;
+}
+.nav__item:last-child {
+    margin: 0;
+}
+.nav__link,
+.help__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item__logo {
+    width: 21px;
+    margin: 0 11px 0 0;
+}
+.item__text,
+.help__text {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    color: #000;
+}
+
+/*header footer*/
+.header__help {}
+.help__link {}
+.help__logo {
+    width: 45px;
+    margin: 0 15px 0 0;
+}
+.help__text {}
+
+/*main*/
+.main {
+    margin: 50px 50px 0 40px;
+}
+.main__header {
+    margin: 0 0 70px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/*search*/
+.main__search {
+    width: 40%;
+}
+.search__icon {
+    width: 24px;
+    margin: 0 15px 0 0;
+}
+.search__input {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+/*main nav*/
+.main__nav {}
+.main__nav-items {
+    display: flex;
+    flex-direction: row;
+}
+.main__nav-item {
+    margin: 0 42px 0 0;
+}
+.main__nav-item:last-child {
+    margin: 0 60px 0 0;
+}
+.main__nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #000;
+}
+
+/*user*/
+.main__user {}
+.main__basket {
+    margin: 0 27px 0 0;
+}
+.main__person {}
+
+/*gallery*/
+.main__content {}
+.content__gallery {}
+.gallery {}
+.gallery__list {}
+.gallery__items {}
+.gallery__item {}
+.gallery__horizontal {}
+.gallery__vertical {}
+.gallery__link {}
+.gallery__image {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
